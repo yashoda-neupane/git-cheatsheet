@@ -13,7 +13,17 @@
 4. To confirm the remote has been added, run
     - git remote -v
 
-6. To finally push the repo, run
+5. Before pushing the code need to pul the code from the remote, use below command
+    - git pull origin main --rebase  # Reapplies your commits on top of remote changes
+    - What happens?
+
+        - Your local commits are rewritten to appear after the remote changes.
+
+        - Results in a cleaner, linear history (preferred for shared branches).
+
+
+
+7. To finally push the repo, run
    - git push -u origin <branch-name> (“main” is the name of that branch)
    eg : git push -u origin main
   *** -u flag is short for --set-upstream. Here's what it does:
