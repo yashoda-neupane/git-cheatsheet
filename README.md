@@ -1,9 +1,9 @@
 # git-cheatsheet
 ## How to push the main branch to remote
 1. If you want to push the main branch to remote, and if you are pushing for the first time, make sure to execute the below commands:
-   a. git init: for initializing a local repository
-   b. git add . :  to add all your files that the local repository has
-   c. git commit -m ‘commit message’ :  to save the changes you made to those files
+   *** git init: for initializing a local repository
+   ***  git add . :  to add all your files that the local repository has
+   *** git commit -m ‘commit message’ :  to save the changes you made to those files
 
 3. To push the main repo, you first have to add the remote repo to Git by running git command as - 
      - git remote add origin <git URL for the repo>
