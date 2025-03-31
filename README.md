@@ -20,7 +20,14 @@
         - Your local commits are rewritten to appear after the remote changes.
 
         - Results in a cleaner, linear history (preferred for shared branches).
+    If conflicts occur:
 
+          1. Resolve them in IntelliJ (Git tool window).
+
+          2. Continue rebasing:
+             - git rebase --continue
+          3. git rebase --continue
+              -  git push origin main
 
 
 7. To finally push the repo, run
